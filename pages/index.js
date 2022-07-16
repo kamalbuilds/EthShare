@@ -55,7 +55,7 @@ export default function Home(props) {
     <main>
       
       <div className="card card-info">
-        <h2> Hola 👋 A platform for all your blockchain newz and learnings</h2>
+        <h2>👋Hola 👋 A platform for all your blockchain needs ,learnings and investing.</h2>
         <p>Welcome! This app is built with Next.js,Firebase and StepZen</p>
         <p>Sign up for an 👨‍🎤 account, ✍️ write posts, then 💖 like content created by other users. All public content is server-rendered and search-engine optimized.</p>
       </div>

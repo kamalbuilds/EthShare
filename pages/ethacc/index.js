@@ -3,7 +3,9 @@ import Squery from '@components/Squery'
 const index = () => {
   return (
     <>
-      <div>kam 
+      <input type="text" placeholder="enter your account Address"/>
+      <button>Submit</button>
+      <div>
         <Squery />
       </div>
     </>

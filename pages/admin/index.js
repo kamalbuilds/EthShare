@@ -61,7 +61,7 @@ function CreateNewPost() {
       uid,
       username,
       published: false,
-      content: '# hello world!',
+      content: '$Express in detail',
       createdAt: serverTimestamp(),
       updatedAt: serverTimestamp(),
       heartCount: 0,
