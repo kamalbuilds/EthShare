@@ -1,0 +1,39 @@
+type ResultEntry {
+  block_hash: String
+  block_number: Date
+  block_timestamp: DateTime
+  from_address: String
+  gas: Int
+  gas_price: Float
+  hash: String
+  input: String
+  nonce: Int
+  receipt_contract_address: JSON
+  receipt_cumulative_gas_used: Int
+  receipt_gas_used: Int
+  receipt_root: JSON
+  receipt_status: Int
+  to_address: String
+  transaction_index: Int
+  transfer_index: [Int]
+  value: Float
+}
+type Root {
+  cursor: String
+  page: Int
+  page_size: Int
+  result: [ResultEntry]
+  total: Int
+}
+
+type Query {
+  myQuery(chain: String, from_block: String): Root
+    @rest(
+      endpoint: "https://deep-index.moralis.io/api/v2/0x3d6c0e79a1239df0039ec16Cc80f7A343b6C530e"
+      headers: [
+        { name: "accept", value: "$accept_bacb769b46;" }
+        { name: "x-api-key", value: "$x_api_key_fee27cd446;" }
+      ]
+      configuration: "curl_import_config"
+    )
+}

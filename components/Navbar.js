@@ -24,8 +24,8 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="/nft">
-            <button className="btn-logo">NFT</button>
+          <Link href="/ethacc">
+            <button className="btn-logo">ETHACC</button>
           </Link>
         </li>
 

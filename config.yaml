@@ -1,0 +1,5 @@
+configurationset:
+  - configuration:
+      name: curl_import_config
+      accept_bacb769b46: application/json
+      x_api_key_fee27cd446: oTaHYuC1KAGCe9MmBipl9sPmgr05Xau240KFWsX06H0jiErUt1Cp15b867nAD0ix
