@@ -19,5 +19,11 @@ Graphql is integrated in the app to provide your account details + transactions 
 - 🚀 Security & Deployment
 
 
+To get started with developement 
+1> ```CLone the repo``` 
+2> ```npm i```
+3> ```npm run dev```
+Open localhost:3000 to view the server running 🔥
+
 
 
